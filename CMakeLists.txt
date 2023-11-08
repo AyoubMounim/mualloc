@@ -9,7 +9,7 @@ add_library(${CMAKE_PROJECT_NAME} STATIC)
 
 set(namespace mualloc)
 
-set(CMAKE_INSTALL_PREFIX /usr/local/lib/mu_libs_c/mualloc/)
+set(CMAKE_INSTALL_PREFIX ${CMAKE_CURRENT_SOURCE_DIR}/install/)
 
 include(GNUInstallDirs)
 
